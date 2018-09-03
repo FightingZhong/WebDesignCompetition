@@ -9,7 +9,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=11,chrome=1" />
 	<title>主页面</title>
 	<link rel="stylesheet" type="text/css" href="1.css">
-
+	<script src="js/echo.min.js"></script>
+	<script>
+		Echo.init({
+		    offset: 0,//离可视区域多少像素的图片可以被加载
+		　　 throttle: 0 //图片延时多少毫秒加载
+		}); 
+	</script>
 </head>
 <body onload="winload()">   
 	<div class="topImgDiv" id="keyword_1"></div>
