@@ -1,0 +1,538 @@
+@charset"utf-8"
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	
+}
+.topImgDiv {
+	width: 100%;
+	height: 340px;
+	background-color: red;
+	background-image: url("images/3.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+/*导航标题*/
+.title123{
+	width: 100%;
+	height: 50px;
+	margin: -2px 0 0 0;
+	background-color: #FFAF60;
+	text-align: center;
+}
+/*导航标题里的标题设置*/
+.title_123{
+	color: red;
+	font-size: 1.5em;
+	padding: 0 0 0 30px;
+	text-decoration: none;
+	line-height: 55px;
+}
+.ImgDiv2,.ImgDiv3 {
+	display: inline-block;
+}
+.ContentDiv1{
+	width: 85%;
+	height: 300px;
+	margin: 30px auto;
+}
+#gundongImg{
+	width: 65%;
+	height: 100%;
+	float: left;
+	background-image: url("images/mlzz2fwo2a.PNG");
+	background-size: cover;
+}
+#gundongImg:hover{ 
+	transform: scale(0.9);
+	-o-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+}
+/*十九大关键词*/
+#li_1{
+	
+	width: 30%;
+	height: 300px;
+	float: left;
+	line-height: 28px;
+	font-size: 1.15em;
+}
+.ImgDiv3{
+	width: 80%;
+	height: 300px;
+	margin: 30px auto;
+}
+
+.zhuti{
+	width: 100px;
+	height: 40px;
+	background: rgba(0,255,0,0.8);
+}
+
+.img1{
+	width: 500px;
+	height: 400px;
+	margin: 20px 0 0 150px;
+}
+.ImgDiv4{
+	width: 500px;
+	height: 400px;
+	background-color:red;
+	margin: -400px 0 0 670px;
+}
+.keywordli{
+	margin-top: -8px;
+	line-height: 35px;
+}
+#keyword{
+	margin: 10px 0 0 65px;
+}
+.title_12345{
+	line-height: 650px;
+	font-size:1.4em;
+	text-decoration: none;
+	color:black;
+}
+.title_1234{
+	font-size:1.1em;
+	text-decoration: none;
+	color:black;
+}
+/*学习平台*/
+.studytable{
+		
+	margin: -20px auto -10px;
+	width: 80%;	
+}
+table tr .studytd{
+	padding: 30px 0px;
+	text-align: center;
+}
+table tr .studytd:hover{
+	transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+tr td #upimg{
+	background-image: url("images/10.png");
+}
+/*学习平台结束*/
+
+/*领导会话模块*/
+.leader1{
+	width: 80%;
+	margin: 0px auto;
+}
+/*该模块主题栏*/
+.zhutibgDiv{
+	width: 100%;
+	background-image: url("images/mlzzm2fwo3a.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 宋体;
+	font-size: 40px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+}
+/*该模块底部图片*/
+#dibu1{
+	width: 100%;
+	margin: 20px 0px;
+}
+/*领导会话内容背景div*/
+.neiyong{
+	width: 100%;
+	height: 550px;
+	margin: 0px auto;
+	background-image: url("images/4.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+/*领导会话左边列表div*/
+.neirong1{
+	width: 47%;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+}
+.neirong1 ul{	list-style-type: none;}
+.neirong2{
+	width: 53%;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+}
+/*名字背景色*/
+.nwen1{
+	width: 70px;
+	line-height: 22px;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(54,71,112,1);
+}
+/*链接背景色*/
+.nwen2{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px; 
+	background-color: rgba(198,198,198,1);
+}
+/*右边图片*/
+.neirongImg{
+	width: 300px;
+	height: 200px;
+	padding: 25px 20% 0px;
+}
+/*右下文字*/
+#x1{
+	margin-left: 5%; 
+	width: 500px;
+	height: 260px;
+}
+/*--领导会话模块结束--*/
+
+/*--菱形模块背景--*/
+.mokuai8{
+	width: 100%;
+	height: 760px;
+	background-image: url("images/n3.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+}
+.mokuai82{
+	width: 90%;
+	position: absolute;
+	margin: 0px 5%;
+}
+/*--视频模块--*/
+.video1{
+	width: 40%;
+	display: inline-block;
+	float: left;
+	margin: 3% 10% auto 0; 
+}
+/*--视频div里的文本--*/
+#pvideo{
+	width: 100%;
+	height: 240px;
+	font-size: 18px;
+	line-height: 30px;
+	padding-left: 30px; 
+	float: left;
+	overflow: hidden;
+}
+/*--大菱形--*/
+.ling{
+	width: 50%;
+	height: 50%;
+	margin: 80px auto;
+	background-color: rgba(88,168,203,0.2);
+	display: inline-block;
+	float: left;
+}
+.ling:hover{
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-animation: xzdiv 1s 1 linear ;
+  	-webkit-transform-origin: center center;
+  	-ms-transform-origin: center center;
+  	transform-origin: center center;
+}
+/*--四个小菱形--*/
+.ling1,.ling2{
+	width: 49%;
+	height: 49%;
+	border: 1px blue solid;
+	display: inline-block;
+	float: left;
+}
+.ling1:hover,.ling2:hover{
+	transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+}
+
+@keyframes xzdiv{
+	0%{
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+}
+/*--两个小菱形--*/
+.ling1{
+	background-color: rgba(148,238,211,0.2);
+}
+/*--内容p标签--*/
+.nlin1{
+	width: 260px;
+	height: 260px;
+	margin: 20px;
+}
+.nlin1:hover{
+	transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+.nlin1 a:hover{
+	text-decoration: none; /*--去掉内容p标签的下划线--*/
+}
+/*--内容span标签-小标题--*/
+.nlin2{
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 35px;
+	color: blue;
+}
+/*--菱形模块结束--*/
+/*--底部模块--*/
+.footer{
+	width: 100%;
+	height: 80px;
+	line-height: 90px;
+	text-align: center;
+	background-color: red;
+	margin-top: 5px;
+}
+
+/*图片轮转*/
+#lunzhuan-img{
+	width: 50%;
+	height: 400px;
+}
+.lunzhuanMainDiv{
+	width: 80%;
+	height: 400px;
+	margin: 100px auto;
+	position: relative;
+}
+
+#lunzhuan-div{
+	display: inline-block;
+}
+
+.lunzhuanUl{
+	margin-top: 0px;
+	display: inline-block;
+	width: 40%;
+	height: 400px;
+	float: right;
+	list-style-type: none;
+}
+
+#div2{
+	position: absolute;
+	z-index:2;
+	left: 240px;
+	bottom: 10px;
+}
+
+.imgBtn{
+	width: 10px;
+	height: 10px; 
+	border-radius: 10px;
+	border: none;
+	margin-left: 10px;
+}
+
+.ulDiv{
+	width: 100%;
+	height: 70px;
+	color: rgb(211,10,65);
+}
+
+.ulA{
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	width: 350px;
+	height: 21px;
+	color: #000000;
+}
+.ulA:hover{
+	text-decoration:underline;color: #C20C0C;
+}
+
+.ulImg{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	float: left;
+}
+/*十九大风采*/
+.scroll-div{
+	width: 100%;
+	background-size: cover;
+}
+.scroll-bottom-div{
+	width: 80%;
+	height: 600px;
+	margin: 30px auto;
+}
+
+.scroll-title-div{
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+.scroll-left-div{
+	width: 50%;
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.left-fengcai-div{
+	background-color: #CEFFCE;
+	width: 33%;
+	height: 60%;
+	margin-left: 50px;
+	margin-top: 20px;
+	border-radius: 10px;
+	float: left;
+	text-align: center;
+	box-shadow:10px 10px 5px #888888;
+	overflow: hidden;
+}
+.scroll-left-div img{
+	margin: 2px 0px 10px;
+	width: 100%;
+}
+.scroll-left-div img:hover{
+	transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+#sItem{
+	display: block;
+	width: 40%;
+	height: 70%;
+	overflow-y: scroll;
+	margin-top: 50px;
+	list-style-type: none;
+}
+.liDiv{
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+}
+
+#sItem img{
+	width: 38%;
+	height: 100%;
+	float: left;
+}
+
+#sItem a{
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	color: #000000;
+}
+.ulA{
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	width: 350px;
+	height: 21px;
+	color: #000000;
+}
+
+#sItem a:hover{
+	text-decoration:underline;color: #C20C0C;
+}
+
+/*聚焦十九大*/
+.bg{
+	width: 100%;
+	height:800px;
+   margin-top:0px;
+    margin-bottom: 20px;
+/*	background-image: url("images/xysbd_1.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.topdiv {
+    width:90%;
+    height:330px;
+    position: absolute;
+ 	margin-top: 30px;
+ 	margin-left: 80px;  
+    background: url("images/xysbd_1.png")  no-repeat 0 0;
+    background-size:100%;
+    line-height:45px;
+    padding:60px 15px 30px 15px;
+    font-weight:bold;
+}
+.seconddiv{ 
+    width: 80%;
+	position: absolute;
+	margin: 373px 40px 20px 190px; 
+
+}
+ .mainBox
+{
+    border: 1px dashed #0099cc;
+    margin: 3px;
+    padding: 0px;
+    width: 250px;
+    height: 420px;
+    float: left;
+    background-color:#E3F09B;
+}
+.mainBox h3
+{
+    float: left;
+    height: 48px;
+    width: 180px;
+    color: #ffffff;
+    padding: 6px 3px 3px 50px;
+    background-image:url("images/xysbd_2.jpg"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: -40px;
+    font-size: 20px;
+    line-height: 48px;
+}
+.mainBox p
+{
+    line-height: 1.3em;
+    text-indent: 2em;
+    margin: 35px 5px 5px 5px;
+}
+a:link {color:black;text-decoration:none;}      /* 未访问链接*/
+a:visited {color:black;text-decoration:none;}  /* 已访问链接 */
+/*设置a属性*/
+a:hover{color:#EC842B;}
