@@ -1,4 +1,4 @@
-@charset"utf-8"
+﻿@charset"utf-8"
 *{
 	margin: 0px;
 	padding: 0px;
@@ -23,6 +23,25 @@ body{
 	margin: -2px 0 0 0;
 	background-color: #FFAF60;
 	text-align: center;
+}
+
+.switch1{
+	margin-top: 15px;
+	float: right;
+	display: inline-block;
+	width: 30px;
+	height: 25px;
+	border-radius: 100% 0 0 100%;
+}
+
+.switch2{
+	margin-top: 15px;
+	margin-right: 20px;
+	float: right;
+	display: inline-block;
+	width: 30px;
+	height: 25px;
+	border-radius: 0 100% 100% 0;
 }
 /*导航标题里的标题设置*/
 .title_123{
@@ -103,26 +122,7 @@ body{
 	text-decoration: none;
 	color:black;
 }
-/*学习平台*/
-.studytable{
-		
-	margin: -20px auto -10px;
-	width: 80%;	
-}
-table tr .studytd{
-	padding: 30px 0px;
-	text-align: center;
-}
-table tr .studytd:hover{
-	transform: scale(1.2);
-	-o-transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-}
-tr td #upimg{
-	background-image: url("images/10.png");
-}
-/*学习平台结束*/
+
 
 /*领导会话模块*/
 .leader1{
@@ -174,7 +174,7 @@ tr td #upimg{
 }
 /*名字背景色*/
 .nwen1{
-	width: 70px;
+	width: 150px;
 	line-height: 22px;
 	text-align: center;
 	color: #fff;
@@ -401,6 +401,11 @@ tr td #upimg{
 	width: 100%;
 	text-align: center;
 }
+
+.scroll-title-div h1{
+	color: rgb(102,0,0);
+}
+
 .scroll-left-div{
 	width: 50%;
 	height: 400px;
@@ -476,8 +481,8 @@ tr td #upimg{
 /*聚焦十九大*/
 .bg{
 	width: 100%;
-	height:800px;
-   margin-top:0px;
+	height:500px;
+   	margin-top:0px;
     margin-bottom: 20px;
 /*	background-image: url("images/xysbd_1.jpg");*/
 	background-repeat: no-repeat;
@@ -497,12 +502,10 @@ tr td #upimg{
     font-weight:bold;
 }
 .seconddiv{ 
-    width: 80%;
-	position: absolute;
-	margin: 373px 40px 20px 190px; 
-
+    width: 1040px;
+	margin: 0px auto;
 }
- .mainBox
+.mainBox
 {
     border: 1px dashed #0099cc;
     margin: 3px;
@@ -531,6 +534,13 @@ tr td #upimg{
     line-height: 1.3em;
     text-indent: 2em;
     margin: 35px 5px 5px 5px;
+}
+
+.threed{
+	text-align: center;
+	color: red;
+	letter-spacing: 0;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
 }
 a:link {color:black;text-decoration:none;}      /* 未访问链接*/
 a:visited {color:black;text-decoration:none;}  /* 已访问链接 */
